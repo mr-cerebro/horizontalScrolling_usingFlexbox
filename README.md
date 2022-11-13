@@ -12,13 +12,13 @@ Se você desenvolve sites para web, certamente já precisou criar componentes co
 
 ´´´html
     <div class="container">
-        <img src="https://source.unsplash.com/random?a=1" alt="">
-        <img src="https://source.unsplash.com/random?b=1" alt="">
-        <img src="https://source.unsplash.com/random?c=1" alt="">
-        <img src="https://source.unsplash.com/random?e=1" alt="">
-        <img src="https://source.unsplash.com/random?f=1" alt="">
-        <img src="https://source.unsplash.com/random?g=1" alt="">
-        <img src="https://source.unsplash.com/random?h=1" alt="">
+        <img src="./assets/img/source.unsplash.com/random?a=1" alt="">
+        <img src="./assets/imgsource.unsplash.com/random?b=1" alt="">
+        <img src="./assets/imgsource.unsplash.com/random?c=1" alt="">
+        <img src="./assets/imgsource.unsplash.com/random?e=1" alt="">
+        <img src="./assets/imgsource.unsplash.com/random?f=1" alt="">
+        <img src="./assets/imgsource.unsplash.com/random?g=1" alt="">
+        <img src="./assets/imgsource.unsplash.com/random?h=1" alt="">
     </div>
 ´´´
 
