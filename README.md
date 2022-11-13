@@ -10,7 +10,7 @@ Se você desenvolve sites para web, certamente já precisou criar componentes co
 
 ## 🔖 Layout do Projeto
 
-´´´html
+´´´
     <div class="container">
         <img src="./assets/img/source.unsplash.com/random?a=1" alt="">
         <img src="./assets/imgsource.unsplash.com/random?b=1" alt="">
@@ -24,7 +24,4 @@ Se você desenvolve sites para web, certamente já precisou criar componentes co
 
 ## Estilização do projeto
 
-O próximo passo é adicionar o estilo para que o contêiner role horizontalmente. Para isso, vamos adicionar
-´´´css
-    display: flex
-´´´ ao contêiner. Além disso, estou definindo o valor overflow-x como auto. Abaixo temos o código pronto já com os estilos:
+O próximo passo é adicionar o estilo para que o contêiner role horizontalmente. Para isso, vamos adicionar ´display: flex´ ao contêiner. Além disso, estou definindo o valor ´overflow-x´ como auto. Abaixo temos o código pronto já com os estilos:
