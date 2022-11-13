@@ -10,18 +10,31 @@ Se você desenvolve sites para web, certamente já precisou criar componentes co
 
 ## 🔖 Layout do Projeto
 
-```
+```html
     <div class="container">
         <img src="./assets/img/source.unsplash.com/random?a=1" alt="">
-        <img src="./assets/imgsource.unsplash.com/random?b=1" alt="">
-        <img src="./assets/imgsource.unsplash.com/random?c=1" alt="">
-        <img src="./assets/imgsource.unsplash.com/random?e=1" alt="">
-        <img src="./assets/imgsource.unsplash.com/random?f=1" alt="">
-        <img src="./assets/imgsource.unsplash.com/random?g=1" alt="">
-        <img src="./assets/imgsource.unsplash.com/random?h=1" alt="">
+        <img src="./assets/img/source.unsplash.com/random?b=1" alt="">
+        <img src="./assets/img/source.unsplash.com/random?c=1" alt="">
+        <img src="./assets/img/source.unsplash.com/random?e=1" alt="">
+        <img src="./assets/img/source.unsplash.com/random?f=1" alt="">
+        <img src="./assets/img/source.unsplash.com/random?g=1" alt="">
+        <img src="./assets/img/source.unsplash.com/random?h=1" alt="">
     </div>
 ```
 
 ## Estilização do projeto
 
 O próximo passo é adicionar o estilo para que o contêiner role horizontalmente. Para isso, vamos adicionar ``display: flex`` ao contêiner. Além disso, estou definindo o valor ``overflow-x`` como auto. Abaixo temos o código pronto já com os estilos:
+
+```css
+    .container {
+        display: flex;
+        overflow-x: auto;
+    }
+```
+
+A rolagem horizontal deverá ficar dessa maneira:
+
+<p align="center">
+    <img src="./assets/img/modelo.gif"/>
+</p>
